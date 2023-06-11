@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<!-- 很可愛所以我偷偷放在這裡 https://www.youtube.com/watch?v=OtHldYi-sFk -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="pics/logo.ico" rel="shortcut icon"/>
+    <title>Ishida Yui</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<style>
+
+      .about {
+        position: relative;
+        background: url("pics/bg.png") no-repeat top center/cover;
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .people {
+        margin-top: 2rem;
+        padding: 1rem 0;
+      }
+
+      .stakeholders {
+        margin: 2rem auto;
+        max-width: 1000px;
+      }
+
+      .stakeholders img {
+        border-radius: 0.6rem;
+      }
+
+      .persons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        gap: 1rem;
+      }
+      .pers {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+        gap: 1rem;
+      }
+
+      .scroll-up {
+        position: fixed;
+        right: 0.5%;
+        bottom: 3%;
+        cursor: pointer;
+      }
+
+      .up-arrow {
+        width: 10rem;
+        height: 10rem;
+      }
+</style>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+      <nav id="navbar-example2" class="navbar sticky-top navbar-dark bg-dark px-3" style="opacity: 80%; ">
+        <a class="navbar-brand" href="#">
+          <img src="pics/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+          石田悠｜Ishida Yui
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: medium; color: #ffffff;" href="#scrollspyHeading1">About me</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="font-size: medium; color: #ffffff;" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Commissions</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" style="color: rgb(255, 174, 0);" href="#scrollspyHeading2"><b>！委託規則！</b></a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading3">排單/進度查詢</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">正比</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Q版</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading8">雜項</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading6">動畫</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading7">棉花娃</a></li>
+              
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: medium; color: #ffffff;" href="#scrollspyHeading0">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" style="background-color: rgba(41, 36, 30, 0.781);">
+      <section class="about" id="about">
+        <h1><a style="color: #ffffff;"><b>ISHIDA YUI<b></h1>
+      </section>
+    </div>
+
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0" style="background-color: rgba(41, 36, 30, 0.781);">
+        <p class="fs-2 text-center" id="scrollspyHeading1">Hello！</p>
+        <div class="card bg-dark text-white text-center mx-auto border-0" style=" max-width: 1500px;">
+          <img src="pics/section1.png" class="card-img" alt="...">
+          <div class="card-img-overlay">
+
+            <p class="card-text fs-4" style="color: rgba(41, 36, 30, 0)">.</p>
+            <p class="card-text fs-4" style="color: rgba(41, 36, 30, 0)">.</p>
+            <p class="card-text fs-4" style="color: rgba(41, 36, 30, 0)">.</p>
+            <p class="card-text fs-4">我是石田悠(Ishida Yui)，擅長繪製日系少女。</p>
+            <p class="card-text fs-4">目前業務範圍包括插畫、動畫、手作棉花娃等等...</p>
+          </div>
+        </div>
+
+<hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+          <p class="fs-2 text-center" id="scrollspyHeading2">委託規則</p>
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-4" >
+            <img src="pics/pay.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            付款方式：匯款、超商代繳(需+40手續費)
+          </p>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+          <p class="card-text fs-4" >
+            <img src="pics/process.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            委託流程：
+          </p>
+          <div class="card text-white text-start mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+            <p class="card-text fs-5">1.私訊：討論委託細節</p>
+            <p class="card-text fs-5">2.草稿 </p>
+            <p class="card-text fs-5">3.線稿+底色 </p>
+            <p class="card-text fs-5">4.付款：默認7日內完成付款(全款) </p>             
+            <p class="card-text fs-5">5.途中確認*n ：部分項目不會有</p>              
+            <p class="card-text fs-5">6.完稿</p>
+            <p class="card-text fs-5">7.寄出：默認使用電子信箱交稿</p>
+          </div>
+        </div>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-4" >
+            <img src="pics/attention.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            注意事項
+          </p>
+          <p style="color: rgb(255, 174, 0);">委託前務必詳細閱讀委託說明，除有另外提出外，委託即是默認所有內容，若因未詳讀注意事項而造成問題，後果請自行承擔！！</p>
+          <p class="card-text fs-4">【修改與加價規則】</p>
+
+          <div class="card text-white text-start mx-auto border-0" style=" max-width: 1000px; background: #00000000;">
+            <p class="card-text fs-5">1.修改時請盡量一次提出</p>
+            <p class="card-text fs-5">2.草稿與底色階段修改次數無上限 </p>
+            <p class="card-text fs-5">3.線稿階段修改超過2次/改動太大，加價200~1000NTD </p>
+            <p class="card-text fs-5">4.設定/構圖複雜加價100~1000NTD </p>    
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(金額在草稿確認後可能會再做調整) </p>            
+            <p class="card-text fs-5">5.委託項目的相應價格為*非商用之單人底價*</p>              
+            <p class="card-text fs-5">6.商用價格依使用範圍x2~3倍不等 委託前請先做詢問</p>
+            <p class="card-text fs-5">7.視情況可接急件，須追加急件費用500~1000NTD</p>
+          </div>
+        </div>
+
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-4">【其他資訊】</p>
+
+          <div class="card text-white text-start mx-auto border-0" style=" max-width: 1000px; background: #00000000;">
+            <p class="card-text fs-5">1.完成圖以白底png為寄出標準，有其他圖檔需求請事先告知</p>
+            <p class="card-text fs-5">2.簽名除商委外一概不予以消除，介意者請不要委託 </p>
+            <p class="card-text fs-5">3.委託完成後會上浮水印在各個平台的個人頁面上發佈 </p>
+            <p class="card-text fs-5">4.等待排單期間可隨時提出取消委託 </p>
+            <p class="card-text fs-5">5.草稿確定後不可取消委託</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(在線稿階段取消則退60%的款項，塗色中取消則不退款) </p>            
+            <p class="card-text fs-5">6.我方仍保有作品著作權，使用或發佈請註明繪師</p>              
+            <p class="card-text fs-5">7.委託完稿用途請在委託時先告知，完稿請勿擅自修改/使用！</p>
+            <p class="card-text fs-5">8.我方保有拒絕委託之權利</p>
+          </div>
+        </div>
+
+<hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+          <div class="card bg-dark text-white text-center mx-auto border-0" style=" max-width: 800px;">
+            <img src="pics/bg2.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <p class="fs-2 text-center" id="scrollspyHeading3">排單/進度查詢</p>
+          <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+            <p class="card-text fs-5" style="color: rgba(41, 36, 30, 0)">.</p>
+            <p class="card-text fs-5" style="color: rgba(41, 36, 30, 0)">.</p>
+            <p class="card-text fs-4" >
+              <img src="pics/document.png" alt="" width="30" height="35" class="d-inline-block align-text-top">
+              表單連結請點此：<button type="button" class="btn btn-outline-light" ><a href="https://reurl.cc/bX5VLv" target="_blank" >Go！</a></button> 
+        </div>
+            </div>
+          </div>
+
+
+<hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-2" id="scrollspyHeading4">
+            ✧*。正比。*✧
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+            <p class="card-text fs-4">正比頭像</p>
+            <p class="card-text fs-5">800 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(頭像一般畫到肩 最多到胸) </p>
+            <p class="card-text fs-4">正比半身</p>
+            <p class="card-text fs-5">1500 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(半身一般畫到腰，最多畫到腿 價格會因範圍調整) </p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(我自己畫構圖畫很爽不在此限)(x) </p>
+            <p class="card-text fs-4">正比全身</p>
+            <p class="card-text fs-5">2000 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(255, 174, 0)">(此項目會畫比較久) </p>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+              <p class="card-text fs-4" >
+                ⇩範例⇩
+              <div class="stakeholders">
+                <div class="persons">
+                  <div class="person-1">
+                    <img src="pics/nor-1.jpg" height="500" alt="" />
+                    <p class="name">委託人：寧醬</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2023-02-15 </p>  
+                  </div>
+                  <div class="person-2">
+                    <img src="pics/nor-2.jpg" height="500" alt="" />
+                    <p class="name">原創狐娘</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-04-12 </p>  
+                  </div>
+                </div>
+              </div>
+        </section>
+        </div>
+<hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-2" id="scrollspyHeading5">
+            ✧*。Q版。*✧
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+            <p class="card-text fs-4">Q版頭像</p>
+            <p class="card-text fs-5">600 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(頭像一般畫到肩 最多到胸) </p>
+            <p class="card-text fs-4">Q版半身</p>
+            <p class="card-text fs-5">1000 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(半身一般畫到腰) </p>
+            <p class="card-text fs-4">Q版全身</p>
+            <p class="card-text fs-5">1500 NTD up</p>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+              <p class="card-text fs-4" >
+                ⇩範例⇩
+              <div class="stakeholders">
+                <div class="persons">
+                  <div class="person-1">
+                    <img src="pics/Q-1.png" height="500" alt="" />
+                    <p class="name">璃醬生賀</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-02-16 </p>  
+                  </div>
+                  <div class="person-2">
+                    <img src="pics/Q-2.png" height="500" alt="" />
+                    <p class="name">委託人：豚豚</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-04-12 </p>  
+                  </div>
+                </div>
+              </div>
+        </section>
+        </div>
+
+        <hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-2" id="scrollspyHeading8">
+            ✧*。雜項。*✧
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+        <p class="card-text fs-4" >
+          .。✧.* 趴趴模板 *.✧。.
+            <p class="card-text fs-5">400 NTD</p>
+            <p class="card-text fs-7" style="color: rgb(255, 174, 0);">(第一張範例圖為最新範例，其餘都是舊作) </p>
+              <p class="card-text fs-4" >
+                ⇩範例⇩
+              <div class="stakeholders">
+                <div class="persons">
+                  <div class="person-1">
+                    <img src="pics/papa-2.gif" height="300" alt="" />
+                    <p class="name">委託人：奈伊 (有加價做動畫)</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2023-02-15 </p>  
+                  </div>
+                  <div class="person-2">
+                    <img src="pics/papa-1.png" height="300" alt="" />
+                    <p class="name">寧醬</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2023-01-23 </p>  
+                  </div>
+                </div>
+              </div>
+        </section>
+        </div>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-4" >
+            .。✧.* 眼睛局部 *.✧。.
+            <p class="card-text fs-5">500 NTD</p>
+            <p class="card-text fs-7" style="color: rgb(255, 174, 0);">(此處範例圖已長時間未更新) </p>
+              <p class="card-text fs-4" >
+                ⇩範例⇩
+              <div class="stakeholders">
+                <div class="persons">
+                  <div class="person-1">
+                    <img src="pics/eye-1.png" height="250" alt="" />
+                    <p class="name">委託人：朱巧蕙</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2021-09-23 </p>  
+                  </div>
+                  <div class="person-2">
+                    <img src="pics/eye-2.png" height="250" alt="" />
+                    <p class="name">委託人：千堂雪</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2021-08-13 </p>  
+                  </div>
+                </div>
+              </div>
+        </section>
+        </div>
+
+<hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-2" id="scrollspyHeading6">
+            ✧*。動畫。*✧
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(以下價格為8影格率、2秒) </p>
+            <p class="card-text fs-4">純線條</p>
+            <p class="card-text fs-5">500 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(+1秒 200 NTD up) </p>
+            <p class="card-text fs-4">有底色</p>
+            <p class="card-text fs-5">1500 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(+1秒 600 NTD up) </p>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+              <p class="card-text fs-5">【補充】</p>
+            <div class="card text-white text-start mx-auto border-0" style=" max-width: 1000px; background: #00000000;">
+              <p class="card-text fs-7">1.尺寸默認HD(1920*1080)</p>
+              <p class="card-text fs-7">2.金額依照影格率及秒數做計算 </p>
+              <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(影格率預設為8~10；金額與影格率及秒數成正比) </p> 
+              <p class="card-text fs-7">3.若需增加影格率/畫面動態幅度大，會需要加價，細節請私訊討論 </p>
+            </div>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+            <p class="card-text fs-5">【動畫委託流程】</p>
+            <div class="card text-white text-start mx-auto border-0" style=" max-width: 1000px; background: #00000000;">
+              <p class="card-text fs-7">1.分鏡</p>
+              <p class="card-text fs-7">2.草稿關鍵幀</p>
+              <p class="card-text fs-7" style="color: rgb(196, 167, 145);">（此階段完成後付款）</p> 
+              <p class="card-text fs-7">3.動畫草稿</p>
+              <p class="card-text fs-7">4.動畫線稿 </p>
+              <p class="card-text fs-7" style="color: rgb(196, 167, 145);">（純線條動畫在這階段即完成）</p> 
+              <p class="card-text fs-7">5.色指定確認</p>
+              <p class="card-text fs-7">6.動畫（上色）完成 </p>
+            </div>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+              <p class="card-text fs-4" >
+                ⇩範例⇩
+              <div class="stakeholders">
+                <div class="pers">
+                  <div class="pers-1">
+                    <img src="pics/animation-1.gif" height="180" alt="" />
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-10-20 </p>  
+                  </div>
+                  <div class="pers-2">
+                    <img src="pics/animation-2.gif" height="180" alt="" />
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-10-25 </p>  
+                  </div>
+                  <div class="pers-3">
+                    <img src="pics/animation-3.gif" height="180" alt="" />
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-11-15 </p>  
+                  </div>
+                  <div class="pers-4">
+                    <img src="pics/animation-4.gif" height="180" alt="" />
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-12-30 </p>  
+                  </div>
+                  <div class="pers-5">
+                    <img src="pics/animation-5.gif" height="180" alt="" />
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-12-30 </p>  
+                  </div>
+                  <div class="pers-6">
+                    <img src="pics/animation-6.gif" height="180" alt="" />
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-10-12 </p>  
+                  </div>
+                </div>
+              </div>
+        </section>
+        </div>
+
+<hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+        <div class="card text-white text-center mx-auto border-0" style=" max-width: 1500px; background: #00000000;">
+          <p class="card-text fs-2" id="scrollspyHeading7">
+            ✧*。棉花娃。*✧
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+            <p class="card-text fs-4" >
+              .。✧.* 娃稿 *.✧。.
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(只畫裸娃) </p>
+            <p class="card-text fs-4">正面</p>
+            <p class="card-text fs-5">300 NTD up</p>
+            <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(+背面 +200 NTD up) </p>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+              <p class="card-text fs-5">【補充】</p>
+            <div class="card text-white text-start mx-auto border-0" style=" max-width: 1000px; background: #00000000;">
+              <p class="card-text fs-7">1.有附色票(6~8色)</p>
+              <p class="card-text fs-7">2.若需加上圖案(貓掌/其他刺繡)或獸耳獸尾會斟酌收費50~150NTD </p>
+              <p class="card-text fs-7">3.不含送印 但能推薦 </p> 
+              <p class="card-text fs-7">4.參考圖片/說明文字如有需求請自備 這邊可以幫忙加上去 </p>
+            </div>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+              <p class="card-text fs-4" >
+                ⇩範例⇩
+              <div class="stakeholders">
+                <div class="persons">
+                  <div class="person-1">
+                    <img src="pics/doll2d-1.png" height="500" alt="" />
+                    <p class="name">OC</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2021-09-08 </p>  
+                  </div>
+                  <div class="person-2">
+                    <img src="pics/doll2d-2.png" height="500" alt="" />
+                    <p class="name">委託人：李祉佑</p>
+                    <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-09-06 </p>  
+                  </div>
+                </div>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+        <p class="card-text fs-4" >
+          .。✧.* 棉花娃 *.✧。.
+        <p class="card-text fs-4">20cm裸娃</p>
+        <p class="card-text fs-5">4000 NTD up</p>
+        <p class="card-text fs-7" style="color: rgb(196, 167, 145);">(+背面 +200 NTD up) </p>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+          <p class="card-text fs-5">【補充】</p>
+        <div class="card text-white text-start mx-auto border-0" style=" max-width: 1000px; background: #00000000;">
+          <p class="card-text fs-7">1.全部純手工(包含刺繡)</p>
+          <p class="card-text fs-7">2.基礎刺繡只有臉部(最多5色)，其他刺繡或加色須加價 </p>
+          <p class="card-text fs-7">3.頭髮的工法可討論，且不可超過一色(超過會加價) </p>
+        </div>
+<hr style="block-size: 1px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+          <p class="card-text fs-4" >
+            ⇩範例⇩
+          <div class="stakeholders">
+            <div class="persons">
+              <div class="person-1">
+                <img src="pics/doll3d-1.jpg" height="500" alt="" />
+                <p class="name">璃醬</p>
+                <p class="card-text fs-7" style="color: rgb(196, 167, 145);">製作日：2022-08-15 </p>  
+              </div>
+              <div class="person-2">
+                <img src="pics/doll3d-2.jpg" height="500" alt="" />
+                <p class="name">璃醬</p>
+                <p class="card-text fs-7" style="color: rgb(196, 167, 145);">完稿日：2022-08-15 </p>  
+              </div>
+            </div>
+          </div>
+              </div>
+        </section>
+
+<hr style="block-size: 5px; color: rgba(0, 0, 0, 0.411);margin-right:0">
+
+        <p class="card-text fs-2" id="scrollspyHeading0">
+          Contact me
+        </p>
+        <div class="stakeholders">
+          <div class="pers">
+            <div class="pers-2">
+              <a href="https://www.facebook.com/ishidayui0418" target="_blank"><img src="pics/contact-fb.png" width="40" height="40" ></a>
+              <p class="card-text fs-4">Facebook</p>
+            </div>
+
+            <div class="pers-2">
+              <a href="https://www.instagram.com/Ishida_Yui_" target="_blank"><img src="pics/contact-ig.png" width="40" height="40" ></a>
+              <p class="card-text fs-4">Instagram</p>
+            </div>
+
+            <div class="pers-3">
+              <a href="https://twitter.com/Ishida_Yui_" target="_blank"><img src="pics/contact-twitter.png" width="40" height="40" ></a>
+              <p class="card-text fs-4">twitter</p>
+            </div>
+          </div>
+        </div>
+
+        
+    <i class="scroll-up" id="scroll-up">
+      <img
+       src="pics/arrow.png"
+       class="socicon up-arrow"
+       alt="up-arrow"/>
+      </i>
+      <script src="Java.js"></script>
+
+</body>
+
+</html>
